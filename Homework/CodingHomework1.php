@@ -6,10 +6,6 @@
 	<title>Coding Homework #1</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
 	<style> 
-		div {
-			box-shadow: lightslategray;
-			shape-outside: border-box;
-		}
 		h1 {
 		  text-align: center;
 		  text-transform: uppercase;
