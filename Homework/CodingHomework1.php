@@ -23,7 +23,7 @@
 
 		a {
 		  text-decoration: none;
-		  color: darkred;
+		  color: red;
 		}
 	</style>
 </head>
