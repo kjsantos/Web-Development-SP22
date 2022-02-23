@@ -112,15 +112,15 @@
 
 
 	?>
-	<h1><br>Challenge 2B: Two in a Row</h1>
+	<h1><br>Challenge 2: Coin Flip Redux</h1>
 
 	<?php
 
-		function in_a_row ($count) {
+		function in_a_row ($count) { #count represents the parameter for how many times we need to flip in a row
 			echo "<br><div class=\"container\" style=\"width: 50rem;\"><div class=\"row\"><div class=\"col text-center\"><p>Beginning the coin flipping...</p>";
-			$how_many = 0;
-			$tries = 0;
-			while ($how_many!=$count) {
+			$how_many = 0; #current streak of heads in a row
+			$tries = 0; #running total of flips
+			while ($how_many!=$count) { #keep this loop going until we have reached the specified number of flips
 				$flip = mt_rand(0,1);
 				if ($flip==0) {
 					echo "<img src=\"985351.png\"width=\"100\"height=\"100\">";
@@ -128,9 +128,9 @@
 				}
 				else {
 					echo "<img src=\"985360.png\"width=\"100\"height=\"100\">";
-					$how_many = 0;
+					$how_many = 0; #resets the variable how_many to 0 if tails
 				}
-				$tries++;
+				$tries++; #add a try at the end of each iteration
 			}
 			echo "<p>Flipped two heads in a row, in $tries flips!</p>";
 			echo "</div></div></div><br>";
