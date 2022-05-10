@@ -33,7 +33,7 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar align-items-center ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container-fluid" style="margin-right: 100px; margin-left: 100px;">
             <a class="navbar-brand" style="font-size: 30px;" href="index.php">Rat City</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,14 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link"><span>Home</span></a></li>
-                    <li class="nav-item"><a href="sign_in.php" class="nav-link"><span>Login</span></a></li>
+                    <li class="nav-item"><a href="show_map.php" class="nav-link"><span>My Dashboard</span></a></li>
+                    <li class="nav-item"><a href="sign_out.php" class="nav-link"><span>Sign Out</span></a></li>
+                    <li class="nav-item"><a href="inspectionhistory.php" class="nav-link"><span>Inspection History</span></a></li>
+                </ul>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="overlay"></div></body>
+    <div class="overlay"></div>
+</body>
 </html>
